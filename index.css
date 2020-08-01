@@ -1,4 +1,20 @@
 
-html {
+html, body {
     background-color: #FAE0E1
+}
+
+#bannerImg {
+    width: 100%;
+}
+
+div > div > img {
+    object-fit: cover;
+    /* float: left; */
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+#navbarRow {
+    display: flex;
 }
