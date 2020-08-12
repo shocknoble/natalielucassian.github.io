@@ -8,10 +8,10 @@ html, body {
 }
 
 div > div > iframe {
-    object-fit: cover;
-    float: left;
+
+    /* float: left; */
     height: 500%;
-    width: 100%;
+    min-width: 100%;
     /* padding: 0; */
 }
 
