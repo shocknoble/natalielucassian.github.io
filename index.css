@@ -11,9 +11,23 @@ div > div > iframe {
 
     /* float: left; */
     height: 500%;
-    min-width: 100%;
+    width: 100%;
     /* padding: 0; */
 }
+
+.youtube-embed {
+    position: relative;
+    padding-bottom: 56%;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .youtube-embed iframe {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+  }
 
 
 
